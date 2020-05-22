@@ -133,33 +133,6 @@ store.dispatch(addExpense({description:'Rent', note:'myrent', amount: 400, creat
 
 store.dispatch(addExpense({description:'coffe', note:'morning', amount: 44, createdAT: 35}))
 store.dispatch(addExpense({description:'tea', note:'night', amount: 36, createdAT: 0}))*/
-
-
-
-/*import {createStore, combineReducers} from 'redux'
-
-const expensesReducer = (state=[], action) => {
-    switch(action.type) {
-        default: 
-            return state
-    }
-
-}
-const filtersReducer = (state=[], action) => {
-    switch(action.type) {
-        default: 
-            return state
-    }
-
-}
-
-const store = createStore(combineReducers({
-    expenses: expensesReducer,
-    filters: filtersReducer
-}))
-
-console.log(store.getState());
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /*import {createStore} from 'redux'
 
 const incrementCount = ({incrementBy = 1}= {}) => ({
